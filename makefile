@@ -15,5 +15,3 @@ run:
 clean:
 	rm *.o
 	rm program
-	rm *.ppm
-	rm *.png
