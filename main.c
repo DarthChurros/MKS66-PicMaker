@@ -3,8 +3,6 @@
 #include <fcntl.h>
 #include <unistd.h>
 
-int mod(int a, int b);
-
 int main() {
   FILE* img = fopen("image.ppm", "w");
   fprintf(img, "P3\n512 512 255\n");
